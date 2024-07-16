@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.digital-marketing-agency-main-container {
+  min-height: 100vh;
+  width: 100%;
+}
+.title-and-image-container {
+  display: flex;
+  padding: 50px 10%;
+  gap: 20px;
+  width: 100%;
+}
+.hero-image {
+  height: 380px;
+}
+.title-container {
+  width: 50%;
+}
+.win-title {
+  color: #ff3147;
+  text-transform: uppercase;
+  font-size: 20px;
+  font: normal normal 600 30px/110px Cormorant SC;
+}
+
+.title-container h1 {
+  color: #000000;
+  text-transform: uppercase;
+}
+.digital-para {
+  font: normal normal normal 16px/30px Poppins;
+  color: #000000;
+}
+.contact-us-btn {
+  width: 160px;
+  height: 50px;
+  background: #ff3147;
+  border-radius: 2px;
+  border: none;
+  font: normal normal 600 14px/26px Poppins;
+  color: #ffffff;
+  cursor: pointer;
+}
+#popupContainer {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: solid 1px #f1f1f1;
+}
+.popup-input-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-form {
+  border: 1px solid #f1f1f1;
+  height: 350px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.popup-email-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #6f718f99;
+  height: 35px;
+  padding: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+.input-container {
+  position: relative;
+}
+
+.input-label {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  pointer-events: none;
+  color: #6f718f99;
+  transition: 0.3s;
+}
+
+.popup-email-input:focus + .input-label {
+  top: -17px;
+}
+.first-and-last-name-input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.checkbox-input {
+  accent-color: #ff3147;
+  mix-blend-mode: multiply;
+}
+.form-contact-button {
+  height: 35px;
+  width: 100%;
+  border: none;
+  background-color: #ff3147;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.service-main-container {
+  height: 100vh;
+  width: 100%;
+  padding: 50px 10%;
+}
+
+.service-title-para-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.service-heading {
+  width: 40%;
+  font: normal normal bold 45px/65px Cormorant SC;
+  text-transform: uppercase;
+}
+.service-para {
+  width: 45%;
+  font: normal normal normal 16px/30px Poppins;
+}
+.servce-what-do-heading {
+  font: normal normal 600 24px/26px Cormorant SC;
+  color: #ff3147;
+}
+
+.image-container {
+  position: relative;
+}
+.hower-container {
+  position: absolute;
+  width: 300px;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #ff3147;
+  overflow: hidden;
+  text-align: center;
+  color: #ffffff;
+}
+.image {
+  height: 350px;
+  width: 300px;
+  display: block;
+}
+
+.image:hover + .hower-container {
+  height: 100%;
+  transition: 0.5 ease;
+}
+
+.hover-btn {
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  cursor: pointer;
+}
+.icon {
+  margin-top: 10px;
+}
+.slider-images-container {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.scroll-btn {
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  margin-top: 10px;
+  background-color: #000000;
+  border: none;
+}
+.scroll-btn:active {
+  background-color: #ff3147;
+  width: 25px;
+}
+
+.button {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+.button label {
+  height: 15px;
+  width: 15px;
+  background-color: #000000;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.why-we-choose-main-container {
+  width: 100%;
+  padding: 0px 10%;
+}
+.why-details-container {
+  text-align: center;
+}
+.why-details-container h1 {
+  text-align: center;
+  font: normal normal bold 45px/65px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.why-details-container h3 {
+  text-align: center;
+  font: normal normal 600 24px/26px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+}
+
+.details-container-why {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+}
+.details-container-why div {
+  width: 18%;
+  font: normal normal normal 16px/26px Poppins;
+}
+.image-button-container {
+  height: 100px;
+  width: 300px;
+  padding: 5px;
+}
+.active {
+  background-color: #ff3147;
+  color: #ffffff;
+}
+.inactive {
+  background-color: #f6f6f6;
+  color: #000000;
+}
+.our-projects-main-container {
+  padding: 0px 10%;
+  width: 100%;
+}
+.projects-main-container {
+  text-align: center;
+}
+#image {
+  height: 350px;
+  width: 600px;
+}
+.project-image-details-container {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+.projects-main-container h3 {
+  font: normal normal 600 24px/26px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+}
+
+.projects-main-container h1 {
+  text-align: center;
+  font: normal normal bold 45px/65px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.our-company-growth-main-container {
+  height: 60vh;
+  width: 100%;
+  background-color: #fafafa;
+}
+.company-growth-details-container {
+  text-align: center;
+}
+.company-growth-details-container h1 {
+  text-align: center;
+  font: normal normal bold 45px/65px Cormorant SC;
+  color: #000000;
+  text-transform: uppercase;
+}
+.company-growth-details-container h3 {
+  text-align: center;
+  font: normal normal 600 24px/26px Cormorant SC;
+  color: #ff3147;
+  text-transform: uppercase;
+}
+
+.company-growth-achivements {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.company-growth-achivements div {
+  height: 200px;
+  width: 150px;
+  background-color: #ffffff;
+  text-align: center;
+  font: normal normal normal 14px poppins;
+}
+
+.company-growth-achivements div:hover {
+  transform: scale(1.2);
+}
+
+.client-feedback-main-container {
+  height: 60vh;
+  width: 100%;
+}
+.client-feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.client-feedback-container div {
+  width: 80;
+  text-align: center;
+}
+
+.client-feedback-container h1 {
+  font: normal normal bold 45px/65px Cormorant SC;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.client-feedback-container h3 {
+  text-align: center;
+  font: normal normal 600 24px/26px Cormorant SC;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+}
+.para-container {
+  display: flex;
+}
+
+.first-para {
+  font: normal normal bold 20px/34px Poppins;
+  letter-spacing: 0px;
+  color: #ff3147;
+}
+.second-para {
+  text-align: left;
+  font: normal normal 300 20px/34px Poppins;
+  letter-spacing: 0px;
+  color: #808080;
+}
+.bottom-container {
+  background: url("./images/NoPath\ -\ Copy.png") no-repeat #ff3147;
+  height: 50vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
